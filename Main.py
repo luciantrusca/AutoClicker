@@ -19,15 +19,6 @@ if __name__ == '__main__':
     gui_thread.start()
     print(threading.active_count())
 
-    # start the GUI event loop
-    # dpg.start_dearpygui()
-
-    # wait for the autoclicker thread to finish
-    # ac_thread.join()
-
-    # clean up the dearpygui context
-    # dpg.destroy_context()
-
 
 
 
