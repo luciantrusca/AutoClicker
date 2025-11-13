@@ -22,12 +22,11 @@ with dpg.window(label='jlrewj', no_title_bar=True, no_move=True, width=600, heig
 if __name__ == '__main__':
     # ac = Autoclicker()
     # ac.start()
-    print('asshole',threading.active_count())
+    print('debug',threading.active_count())
     ac = Autoclicker()
     ac_thread = threading.Thread(target=ac.start)
     ac_thread.start()
 
-    print('asshoe')
 
     dpg.create_viewport(title='Custom Title', width=600, height=600)
     dpg.setup_dearpygui()
